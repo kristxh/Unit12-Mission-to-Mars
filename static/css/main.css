@@ -1,0 +1,99 @@
+.figure {
+  border: thin silver solid;
+  padding-top: 0;
+  align-self: center;
+}
+.figcaption {
+  padding: 0.5em;
+  border-bottom: none;
+  text-align: center;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.img-responsive {
+    max-width: 100%; 
+    max-height: auto; 
+  }
+
+.buffer { 
+  margin-top:20px; 
+  margin-bottom:20px; 
+}
+
+.jumbotron {
+  background-image: url("mission_to_mars.jpg");
+  background-size: cover;
+}
+
+.rounded {
+  border-radius: 15px;
+  background:#F5F5F5;
+}
+
+.middle {
+  background:#F5F5F5;
+  padding:30px;
+  height:auto;
+}
+
+.container-fluid {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#f5f5f5;
+  align-self: left;
+  width: 75%;
+  height: 75%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  line-height: 150%;
+  color: #333;
+  background: white;
+}
+
+.box {
+  padding: 10px;
+  color: grey;
+  background: white;
+  margin-right: 10px;
+  margin-left:10px; 
+  margin-bottom: 10px;
+  height:auto;
+  overflow:auto;
+  border:1px solid #cecece;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color:black;
+  font-size:50px;
+}
+
+h2 {
+  text-align: left;
+  color:darkslategrey ;
+  font-weight:bold;
+  font-size:30px;
+}
+
+h3 {
+  text-align: left;
+  color:grey;
+  font-weight:bold;
+  font-size:20px;
+}
+

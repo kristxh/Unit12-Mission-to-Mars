@@ -1,0 +1,157 @@
+.figure {
+  border-top: none;
+  padding-top: 0;
+}
+.figcaption {
+  padding: 0.5em;
+  border: thin silver solid;
+  border-bottom: none;
+}
+
+.img-responsive {
+    max-width: 50%; 
+    max-height: auto; 
+  }
+
+
+.footer {
+  background:#808080;
+  color:#ffffff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.thinline {
+  background:turquoise;
+  height:10px;
+}
+
+.middle {
+  background:#F5F5F5;
+  /* height:500px; */
+  padding:30px;
+  height:auto;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 20px;
+    background: turquoise;
+    position: absolute;
+}
+
+.navbar-default .navbar-brand:hover, 
+.navbar-brand:focus {
+  background-color: turquoise;
+  color: #ffffff;
+}
+
+.container-fluid .navbar-brand {
+    margin-right: -15px;
+    margin-left: -15px;
+    color: white;
+    background-color: turquoise;
+}
+
+.container-fluid {
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: white;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#f5f5f5;
+  align-self: center;
+  width: 95%;
+  height: 95%;
+}
+
+.imgcontainer {
+  background-color:white;
+}
+
+.caption { 
+  color:turquoise;
+}
+
+a:hover {
+  color: turquoise;
+}
+
+.button {
+  text-align: right;
+}
+
+header {
+  background:#ffffff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  line-height: 150%;
+  color: #333;
+  background: white;
+}
+
+.box {
+  padding: 10px;
+  color: grey;
+  background: white;
+  margin-right: 10px;
+  margin-left:10px; 
+  margin-bottom: 10px;
+  height:auto;
+  overflow:auto;
+}
+
+h1 {
+  text-align: left;
+  background-color:#ffffff;
+  color:turquoise;
+}
+
+h2 {
+  text-align: left;
+  background-color:turquoise;
+  color:white;
+  font-weight:bold;
+  font-size:40px;
+}
+
+h3 {
+  text-align: left;
+  background-color:#ffffff;
+  color:turquoise;
+  font-size:20px;
+}
+
+.bio-image {
+  float: left;
+  max-width:50%;
+}
+
+.imgoutline { 
+  outline:3px solid turquoise;
+}
+
+@media (max-width: 600px) {
+       
+    .container-fluid {
+      margin-right: -15px;
+      margin-left: -15px;
+      background-color: turquoise;
+      height:auto;
+    }
+
+    #myNavbar {
+      background-color: #ffffff;
+    }
+}
